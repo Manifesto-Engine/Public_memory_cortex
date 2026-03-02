@@ -26,6 +26,7 @@ from .mood import compute_mood, MOOD_MAP
 from .emotions import emotional_metabolism, is_flashbulb
 from .dreams import dream_cycle
 from .consolidation import consolidate
+from .dashboard import run_dashboard
 
 __all__ = [
     "Cortex",
@@ -43,4 +44,5 @@ __all__ = [
     "is_flashbulb",
     "dream_cycle",
     "consolidate",
+    "run_dashboard",
 ]
